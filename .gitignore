@@ -1,0 +1,25 @@
+# PyTorch model files
+*.pth
+
+# Data directories
+data/
+dataset/
+images/
+annotation/
+
+# Common large file formats
+*.h5
+*.hdf5
+*.pkl
+*.ckpt
+*.tar
+*.zip
+*.gz
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
