@@ -2,7 +2,7 @@
 *.pth
 
 # Data directories
-data/
+# data/
 dataset/
 images/
 annotation/
