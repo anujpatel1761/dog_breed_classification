@@ -26,15 +26,13 @@
 # PyTorch model files
 *.pth
 
-# Data directories - exclude everything in data except data/data
+# Data directories
 data/*
 !data/data/
-
-# Other directories to ignore
+lists/           # Make sure this line is NOT commented (no # at start)
 dataset/
 images/
 annotation/
-lists/
 
 # Common large file formats
 *.h5
