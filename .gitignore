@@ -6,7 +6,7 @@
 dataset/
 images/
 annotation/
-
+lists/
 # Common large file formats
 *.h5
 *.hdf5
