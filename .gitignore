@@ -1,12 +1,41 @@
+# # PyTorch model files
+# *.pth
+
+# # Data directories
+# data/
+# dataset/
+# images/
+# annotation/
+# lists/
+# # Common large file formats
+# *.h5
+# *.hdf5
+# *.pkl
+# *.ckpt
+# *.tar
+# *.zip
+# *.gz
+
+# # Python cache
+# __pycache__/
+# *.py[cod]
+# *.class
+
+# # Jupyter Notebook
+# .ipynb_checkpoints
 # PyTorch model files
 *.pth
 
-# Data directories
-# data/
+# Data directories - exclude everything in data except data/data
+data/*
+!data/data/
+
+# Other directories to ignore
 dataset/
 images/
 annotation/
 lists/
+
 # Common large file formats
 *.h5
 *.hdf5
